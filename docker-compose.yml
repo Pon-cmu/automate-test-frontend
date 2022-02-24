@@ -5,6 +5,6 @@ services:
     ports:
       - "8090:8080"
   frontend:
-    image: phonkritcmu/lab11-1
+    image: phonkritcmu/lab12-1
     ports:
       - "8091:80"
