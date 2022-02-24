@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/234-lab11
+    ports:
+      - "8090:8080"
+  frontend:
+    image: phonkritcmu/lab11-1
+    ports:
+      - "8091:80"
