@@ -4,6 +4,11 @@ services:
     image: dto80/234-lab11
     ports:
       - "8090:8080"
+    volumes:
+      - type: bind
+        source: /home/ubuntu/file/
+        target: /data
+
   frontend:
     image: phonkritcmu/lab12-1
     ports:
